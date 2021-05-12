@@ -4,9 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/application.css" />
     <title>Welcome</title>
   </head>
   <body>
-    <script src="css/application.css"></script>
+    <div class="container">
+      <nav>
+        <ul>
+          <li id="about">/about</li>
+          <li id="contact">/contact</li>
+        </ul>
+      </nav>
+      <main>
+        <h1>klafrance:$<span class="cursor">|</span></h1>
+        <h3>Find me online:</h3>
+        <ul>
+          <li>
+            <a href="https://github.com/Ero6067" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/krislafrance/" target="_blank"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+      </main>
+    </div>
+
+    <div class="hidden">
+      <div id="about-content">
+        <h2>about-me:$ <span class="cursor"></span></h2>
+        <p>I'm Kris Lafrance, a software engineer based in Vancouver, BC.</p>
+        <p>
+          Some of the languages and technologies I am fluent in include
+          Javascript, Node.js, and React.
+        </p>
+      </div>
+      <div id="contact-content">
+        <h2>contact-me:$ <span class="cursor"></span></h2>
+        <p>You can contact me at the email below</p>
+        <ul>
+          Email: kris.lafrance6067@gmail.com
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/winbox.bundle.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
