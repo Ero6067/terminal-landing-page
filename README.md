@@ -1,7 +1,7 @@
 # Terminal Style Landing Page
 
-Written by Kris Lafrance extending
-[Brad Traversy](https://www.youtube.com/watch?v=jQCk2yo10YY)
+Written by Kris Lafrance extending Brad Traversy
+[Project](https://www.youtube.com/watch?v=jQCk2yo10YY)
 
 Uses Javascript, HTML, Sass
 
