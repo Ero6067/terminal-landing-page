@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 20px 0;
+}
+
 nav {
   width: 30%;
 
@@ -62,6 +66,11 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.wb-body {
+  background: #111;
+  padding: 20px;
 }
 
 .hidden {
